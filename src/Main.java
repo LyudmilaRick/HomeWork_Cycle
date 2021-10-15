@@ -16,6 +16,7 @@ public class Main {
             System.out.print(i + " ");
         }
         System.out.print("\n");
+        System.out.print("\n");
         // Задача 2
         System.out.println("Задача 2");
         int firstFriday = 1; // first this month friday
@@ -23,6 +24,7 @@ public class Main {
         for (i = firstFriday; i <= lastMonthDay; i = i + 7) {
             System.out.println("Сегодня пятница, " + i + "-е число. Необходимо подготовить отчет!");
         }
+        System.out.print("\n");
         // Задача 3
         System.out.println("Задача 3");
         int currentYear = 2021;
@@ -38,6 +40,7 @@ public class Main {
         for (i = calcFromYear; i <= calcToYear; i = i + periodMeeting) {
             System.out.println("Год встречи с кометой, " + i);
         }
+        System.out.print("\n");
         // Задача 4
         System.out.println("Задача 4");
         for (i = 1; i <= 30; ++i) {
@@ -50,6 +53,7 @@ public class Main {
             }
             System.out.print("\n");
         }
+        System.out.print("\n");
         // Задача 5
         System.out.println("Задача 5");
         System.out.println("Первые 10 чисел последовательности Фибоначчи");
